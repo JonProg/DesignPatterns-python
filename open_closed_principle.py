@@ -26,6 +26,6 @@ que "entidades de software (classes, módulos, funções, etc.) devem ser aberta
 para extensão, mas fechadas para modificação"
 
 Algo que é demonstrado pela nossa classe onde o jogador pode jogar qualquer carta que 
-tenha o metodo ".ataque()" e para forçamos isso teriamos que implementar um classe
-abstrata.
+tenha o metodo ".ataque()" e para forçamos isso teriamos que implementar uma classe
+abstrata ou interface.
 """
