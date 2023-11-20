@@ -6,7 +6,6 @@ acoplamento entre classes.
 
 """
 
-
 from abc import ABC, abstractmethod
 
 class Veiculo(ABC):
@@ -33,6 +32,7 @@ class MotoPopular(Veiculo):
 class VeiculoFactory(ABC):
     def __init__(self,type) -> None:
         self.carro = self.get_veiculo(type)
+
     @staticmethod
     @abstractmethod
     def get_veiculo(type:str) -> Veiculo: pass
